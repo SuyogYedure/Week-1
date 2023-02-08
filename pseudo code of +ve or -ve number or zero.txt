@@ -1,0 +1,18 @@
+Begin 
+ number num1
+
+print("Enter a number")
+input num1
+
+if num1>0
+{ 
+ print("num1 is positive number", num1)
+}
+else if num1==0
+{
+print("num1 is Zero", num1)
+}
+else{
+print("num1 is negative", num1)
+}
+End

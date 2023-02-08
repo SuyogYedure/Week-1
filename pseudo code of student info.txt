@@ -1,0 +1,58 @@
+Begin
+ number marks,mobile
+ string name,email,college,city
+
+ print("Enter student name")
+ input name
+ print("Enter student email")
+ input email
+ print("Enter student marks")
+ input marks
+ print("Enter student mobile")
+ input mobile
+ print("Enter student college")
+ input college
+ print("Enter student city")
+ input city
+ 
+ print("Name : ", name)
+
+ print("Email : ", email)
+
+ print("Marks : ", marks) 
+
+ print("Mobile : ", mobile)
+
+ print("College : ", college)
+
+ print("City : ", city)
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

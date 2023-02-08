@@ -1,0 +1,62 @@
+Begin
+ number project_marks,internal_marks,external_marks
+ 
+ print("Enter project marks")
+ input project_marks
+ print("Enter internal marks")
+ input internal_marks
+ print("Enter external marks")
+ input external_marks
+
+ if project_marks>=50 && external_marks>=50 && internal_marks>=50
+ project_marks = 70 * project_marks/100
+ external_marks = 20 * external_marks/100
+ internal_marks = 10 * internal_marks/100
+
+ total_score = project_marks + internal_marks + external_marks
+ print("Total Score: ", total_score)
+ 
+ if total_score>=90
+ {
+ print("Grade A")
+ }
+ else if total_score>=70 && total_score<90
+ {
+ print("Grade B")
+ }
+ else {
+ print("Grade C")
+ }
+ if project_marks<50
+ {
+ print("Fail in project", project_marks)
+ }
+ if internal_marks<50
+ {
+ print("Fail in internal", internal_marks)
+ }
+ if external_marks<50
+ {
+ print("Fail in external", external_marks)
+ }
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+Begin 
+ number even,odd,num
+
+print("Enter number")
+input num
+
+if num==0
+ {
+  print("number is zero", num)
+ }
+else if num%2==0 {
+  print("number is even", num)
+ }
+else{
+print("number is odd", num)
+}
+End

@@ -1,0 +1,13 @@
+Begin
+number marks
+print("Enter the marks)
+input marks
+
+if marks>=0 && marks<=100
+{
+print("It is valid marks")
+}
+else{
+print("It is invalid marks")
+}
+End
