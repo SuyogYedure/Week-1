@@ -1,0 +1,16 @@
+Begin
+
+  number basic_salary,hra,da,gross_salary
+
+  print("enter the basic_salary")
+
+  input basic_salary
+
+  hra = (basic*67)/100
+  da = (basic*89)/100
+
+  gross_salary = basic_salary + hra + da
+
+  print("gross_salary s:",gross_salary)
+
+End

@@ -1,0 +1,22 @@
+Begin
+  
+  number add,sub,mul,div,num1,num2
+  print("Enter the num1")
+  input num1
+  print("Enter the num2")
+  input num2
+  add = num1 + num2
+  sub = num1 - num2
+  mul = num1 * num2
+  div = num1 / num2
+  print("Addition : ", add)
+
+  print("Subtraction : ", sub)
+
+  print("Multiplication : ", mul)
+
+  print("Division : ", div)
+
+End
+  
+  
