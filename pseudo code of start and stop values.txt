@@ -1,0 +1,31 @@
+Begin
+ Number start,stop
+
+ print("Enter start values")
+ input start
+ print("Enter stop values")
+ input stop
+
+ if(start<stop){
+
+    while(start<=stop){
+
+        print(start)
+
+        start=start+1
+
+        }
+ }
+
+ else{
+
+    while(start>=stop){
+
+        print(start)
+
+        start=start-1
+
+        }
+ 
+ } 
+End

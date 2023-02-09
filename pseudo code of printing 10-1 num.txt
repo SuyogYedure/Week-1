@@ -1,0 +1,9 @@
+Begin
+ number num1 = 10
+ 
+ while num>=1
+ {
+  print(num1)
+  num1 = num1 - 1
+ } 
+End
